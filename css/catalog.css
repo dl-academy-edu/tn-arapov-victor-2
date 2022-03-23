@@ -1,9 +1,19 @@
-.products__catalog{
+.products__catalog__lineone{
 	-webkit-display: flex;
 	-moz-display: flex;
 	-ms-display:flex;
 	display: flex;
 	align-items: center;
+	flex-flow: row wrap;
+}
+
+.products__section{
+	width: 1080px;
+}
+
+.products__katalog__linetwo{
+	display: flex;
+	justify-content: flex-end;
 }
 
 .products__item{
@@ -23,7 +33,9 @@
 }
 
 .products__box{
-	margin: 0 100px 0 0;
+	display: block;
+    margin-left: 180px;
+    margin-right: auto;
 }
 
 .products__box li{

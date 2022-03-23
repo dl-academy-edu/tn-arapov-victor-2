@@ -283,8 +283,6 @@ a.header__contact:active{
 }
 
 .footer__form input::placeholder{
-	font-size: 16px;
-	line-height: 22px;
 	color: #EBEBEB;
 }
 

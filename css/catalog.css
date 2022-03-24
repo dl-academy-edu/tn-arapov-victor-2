@@ -1,19 +1,18 @@
-.products__catalog__lineone{
+.products__section{
 	-webkit-display: flex;
 	-moz-display: flex;
 	-ms-display:flex;
+	justify-content: start;
 	display: flex;
-	align-items: center;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
 }
 
-.products__section{
-	width: 1080px;
+.products__section li:nth-child(3){
+	margin: 0px 215px 0px 0px;
 }
 
-.products__katalog__linetwo{
-	display: flex;
-	justify-content: flex-end;
+.products__section li:nth-child(4){
+	margin: 0px 20px 0px 215px;
 }
 
 .products__item{
@@ -34,7 +33,7 @@
 
 .products__box{
 	display: block;
-    margin-left: 180px;
+    margin-left: 215px;
     margin-right: auto;
 }
 
